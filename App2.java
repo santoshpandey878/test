@@ -10,7 +10,6 @@ public class App {
 		SimpleRecursiveAction simpleRecursiveAction = new SimpleRecursiveAction(20);
 		System.out.println( forkJoinPool.invoke(simpleRecursiveAction) );
 		
-		System.out.println( "Hello" );
-System.out.println( "Hello1" );
+		System.out.println( "Hello2" );
 	}
 }
